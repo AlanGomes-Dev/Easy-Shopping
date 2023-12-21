@@ -1,0 +1,51 @@
+  /* scren Tablet Landscape */
+             @media screen and (max-width:1150px) and (min-width:900px) and (orientation:landscape) {
+            .information{
+                padding: 0;
+                margin: 0 0 0 95px;
+            }
+        
+            h1{
+                margin: 128px 0 42px 33px;
+                font-size: 50px;
+                text-align: center;
+                width: 268px;
+            }
+           
+            p{
+                margin: 0;
+                width: 360px;
+                height: 280px;
+            }
+        
+            button {
+                margin: 0;
+                margin-left: 15px;
+            }           
+        
+            .menu{
+                position: absolute;
+                top: 26px;
+                margin: 0;
+                margin-left: 90px;
+                height: 655px;
+                width: 500px;
+            }            
+        
+            header {
+                margin: 10px 0 0 55px;
+        
+            }
+
+            .menu-icon{
+                display: none;
+            }
+        
+            img{
+                position: absolute;
+                top: 132px;
+                width: 360px;
+                height: 459px;        
+                right: 13%;
+            }
+        }

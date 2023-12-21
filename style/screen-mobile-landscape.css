@@ -1,0 +1,71 @@
+  /* scren Mobile Landscape */
+  @media screen and (max-width:950px) and (min-width:550px) and (orientation:landscape) {
+    .information{
+        padding: 0;
+        margin: 0 0 0 120px;
+    }
+
+    h1{
+        margin: 74px 0 1px -7px;
+        font-size: 35px;
+        text-align: center;
+        width: 321px;
+        line-height: 99px;
+        height: 100px;
+    }
+   
+    p{
+        margin: 0;
+        font-size: 16px;
+        width: 316px;
+        height: 158px;
+    }
+
+    button {
+        margin: 15px 0 0 66px;
+        width: 150px;
+        height: 38px;
+        font-size: 18px;
+    }           
+
+    .menu{
+        position: absolute;
+        top: 65px;
+        margin: 0;
+        margin-left: 90px;
+        height: 333px;
+        width: 324px;
+    }      
+    
+    .menu-element{
+        display: none;
+    }
+
+    header {
+        margin: 10px 0 0 55px;
+        position: absolute;
+        left: -508px;
+        height: 230px;
+        width: 100px;
+
+    }
+
+    .menu-icon{
+        display: inline-block;
+        font-size: 30px;        
+        color: rgb(156, 132, 223);
+        cursor: pointer;
+    }
+
+    .menu-icon:hover + a {
+        display: block;
+    }
+
+    img{
+        position: absolute;
+        top: 50px;
+        width: 228px;
+        height: 265px;        
+        right: 15%;
+    }
+}

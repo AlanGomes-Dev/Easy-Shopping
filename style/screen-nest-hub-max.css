@@ -1,0 +1,51 @@
+          /* scren Tablet */
+          @media screen and (min-width:1150px) and (max-width:1570px) {
+              .information {
+                  padding: 0;
+                  margin: 0;
+                  margin-left: 80px;
+              }
+
+              h1 {
+                  margin: 215px 0 42px 20px;
+                  font-size: 60px;
+                  text-align: center;
+              }
+
+              p {
+                  margin: 0;
+                  width: 409px;
+                  height: 260px;
+              }
+
+              button {
+                  margin: 0;
+                  margin-left: 60px;
+              }
+
+              Header {
+                  margin: 0;
+              }
+
+              .menu {
+                  position: absolute;
+                  top: 25px;
+                  margin: 0;
+                  margin-left: 210px;
+                  height: 740px;
+              }             
+
+              header {
+                  margin: 10px 0 0 55px;
+
+              }
+              
+
+              img {
+                  position: absolute;
+                  top: 152px;
+                  width: 456px;
+                  height: 563.95px;
+                  right: 37%;
+              }
+          }
