@@ -5,9 +5,16 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 main {
     width: 100%;
     height: 100%;
+    flex: 1;
 }
 
 .information {
@@ -105,3 +112,8 @@ img {
 
 }
 
+footer{    
+    text-align: center;
+    margin: 10px;
+    color: #9895bb;
+}

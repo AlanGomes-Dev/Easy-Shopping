@@ -1,14 +1,16 @@
   /* scren Mobile Landscape */
-  @media screen and (max-width:550px) and (min-width:200px) and (orientation:portrait) {
+  @media screen and (max-width:450px) and (min-width:200px) and (orientation:portrait) {
+
+    
     .information{
         display: block;
         height: 47%;
         padding: 0;
-        margin: 0px 0 0 54px;
+        margin: 0px 0 0 15px;
     }
 
     h1{
-        margin: 38px 0px -16px 59px;
+        margin: 10px 0px -16px 59px;
         font-size: 40px;
         text-align: center;
         line-height: 52px;
@@ -16,12 +18,7 @@
     }
    
     p{
-        position: relative;
-        bottom: 23px;
-        font-size: 23px;
-        margin: 0;
-        width: 339px;
-        height: 191px;        
+        display: none;          
     }
 
     button {
@@ -35,7 +32,7 @@
         display: block;
         position: absolute;
         margin: 14px 0 0px 0px;
-        width: 430px;
+        width: 400px;
         height: 483px;
     }      
     
@@ -57,7 +54,7 @@
     img{
         position: relative;
         top: 40px;
-        left: 67px;
+        left: 33px;
         width: 307px;
         height: 394px;
         right: 0%;
