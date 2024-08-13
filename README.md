@@ -1,4 +1,4 @@
-<h1>Wide Coverage</h1>
+<h1>Easy Shopping</h1>
 </h1>
 <p>
   Projeto direcinado a adquirir conhecimento e praticar a responsividade para variedades de telas tanto em portrait e landscape.
